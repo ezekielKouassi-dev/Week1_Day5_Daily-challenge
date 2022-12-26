@@ -1,0 +1,73 @@
+.main-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.animation-box {
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    border: 2px solid black;
+}
+
+.box-name {
+    text-align: center;
+    color: white;
+}
+
+.box-fade {
+    background-color: blueviolet;
+    opacity: 0.5;
+}
+
+.box-fade:hover {
+    opacity: 1;
+    background-color: blueviolet;
+}
+
+.box-change {
+    background-color: aqua;
+}
+
+.box-change:hover {
+    background-color: brown;
+}
+
+.box-grow {
+    background-color: blue;
+}
+
+.box-grow:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.box-shrink {
+    background-color: chartreuse;
+}
+
+.box-shrink:hover {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+}
+
+.box-rotation {
+    background-color: coral;
+}
+
+.box-rotation:hover {
+    -webkit-transform: rotateZ(-30deg);
+    -ms-transform: rotateZ(-30deg);
+    transform: rotateZ(-30deg);
+}
+
+.box-radio {
+    background-color: darkgreen;
+}
+
+.box-radio:hover {
+    box-shadow: inset 0 0 0 25px #53a7ea;
+}
